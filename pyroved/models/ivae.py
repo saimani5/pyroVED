@@ -19,7 +19,8 @@ from pyroved.nets import fcDecoderNet, fcEncoderNet, sDecoderNet
 from pyroved.utils import (
     generate_grid, generate_latent_grid, get_sampler,
     plot_img_grid, plot_spect_grid, set_deterministic_mode,
-    to_onehot, transform_coordinates
+    to_onehot, transform_coordinates, generate_latent_grid_traversal, 
+    plot_grid_traversal
 )
 
 
